@@ -15,7 +15,7 @@ if (app) {
 
   images.forEach((img) => {
     const imgElem = document.createElement('img');
-    imgElem.src = `/images/${img}`;
+    imgElem.src = img;
     imgElem.alt = img;
     gallery.appendChild(imgElem);
   });
